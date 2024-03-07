@@ -1,11 +1,9 @@
 # Developing a Neural Network Classification Model
 
 ## AIM
-
 To develop a neural network classification model for the given dataset.
 
 ## Problem Statement
-
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
 
 In their existing market, the sales team has classified all customers into 4 segments (A, B, C, D ). Then, they performed segmented outreach and communication for a different segment of customers. This strategy has work exceptionally well for them. They plan to use the same strategy for the new markets.
@@ -42,12 +40,9 @@ Save the model using pickle.
 ## STEP 8:
 Using the DL model predict for some random inputs.
 
-
 ## PROGRAM
-
 ### Name: Sachin.C
 ### Register Number: 212222230125
-
 ```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -156,7 +151,6 @@ X.shape
 X_train,X_test,y_train,y_test=train_test_split(X,y,
                                                test_size=0.33,
                                                random_state=50)
-
 X_train[0]
 
 X_train.shape
@@ -224,11 +218,9 @@ print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
 
 ```
-
 ## Dataset Information
 
 ![image](https://github.com/Danielmanoj/nn-classification/assets/69635071/79c1cd17-8781-4838-97be-70e0888df1eb)
-
 
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
